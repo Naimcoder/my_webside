@@ -1,9 +1,13 @@
+/* ========================================== */
 body{
      font-family: 'Poppins', sans-serif;
      margin: 0;
      padding: 0;
 }
+/* ========================================== */
 
+/* ========================================== */
+/* banner top part start */
 #top_banner{
 display: flex;
 margin-bottom: 100px;
@@ -41,10 +45,7 @@ p {
      color: dimgray;
      text-align: justify;
 }
-.dream_content{
-     margin-left: 0px !important;
-     margin-right: 11%;
-}
+
 .btn{
      padding: 10px 30px;
      background-image: linear-gradient(45deg,tomato,orange);
@@ -52,12 +53,31 @@ p {
      color: #fff;
      border-radius: 5px;
 }
+/* dream part start */
+.dream_content {
+     margin-left: 0px !important;
+     margin-right: 11%;
+}
+
+/* dream part end */
+/* ========================================== */
+
+/* ========================================== */
+/* #Experiences part start */
 #Experiences{
 background-image: url(images/ex.png);
      background-repeat: no-repeat;
      background-position: left;
      margin-bottom: 150px;
 }
+.Experiences {
+     display: flex;
+     margin-left: 4%;
+
+}
+
+
+
 .Baby{
      width: 40%;
      margin-left: 5%;
@@ -76,12 +96,14 @@ background-image: url(images/ex.png);
    
      
 }
-.Experiences{
-     display: flex;
-     margin-left: 4%;
-     
-}
+/* #Experiences part end */
+/* =============================== */
+
+/* =================================== */
+/* footer part start */
 footer p{
      text-align: center;
      color: dimgray;
 }
+/* footer part end */
+/* ========================================== */
